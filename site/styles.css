@@ -22,6 +22,20 @@ body .button {
     outline: none;
 }
 
+
+input {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(55, 55, 70);
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+    color: white;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
 footer {
     position: fixed;
     top: 90%;
