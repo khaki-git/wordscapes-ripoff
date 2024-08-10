@@ -26,4 +26,4 @@ def dictWords():
     return send_file("site/words_dictionary.json")
 
 if __name__ == "__main__":
-    app.run(port=4996)
+    app.run(port=4996, host="0.0.0.0")
